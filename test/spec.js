@@ -8,7 +8,7 @@ var angle = require('../src/');
 var units = angle.units;
 var synonyms = angle.synonyms;
 
-describe('amount of substance units synonyms', function() {
+describe('angle units synonyms', function() {
   it('should be an objecct', function() {
     ({}.toString.call(synonyms)).should.equal('[object Object]');
   });
